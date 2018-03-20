@@ -20,3 +20,6 @@ wget -r -nH --cut-dirs=2 --no-parent -A "*Workstation*i686*" -R  "*Alpha*" -R "*
 wget -r -nH --cut-dirs=2 --no-parent -A "*Workstation*x86_64*" -R  "*Alpha*" -R "*Beta*" http://torrent.fedoraproject.org/torrents/ -P .
 wget -r -nH --cut-dirs=2 --no-parent -A "*Server*i686*" -R  "*Alpha*" -R "*Beta*" http://torrent.fedoraproject.org/torrents/ -P .
 wget -r -nH --cut-dirs=2 --no-parent -A "*Server*x86_64*" -R  "*Alpha*" -R "*Beta*" http://torrent.fedoraproject.org/torrents/ -P .
+
+#Kali
+wget -r -nH --cut-dirs=6 --no-parent -A "*.torrent" https://cdimage.kali.org/kali-images/current/ -P .
